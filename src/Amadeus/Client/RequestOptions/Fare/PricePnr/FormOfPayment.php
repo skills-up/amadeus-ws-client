@@ -64,4 +64,14 @@ class FormOfPayment extends LoadParamsFromArray
      * @var string
      */
     public $vendorCode;
+
+    /**
+     * @var string
+     */
+    public $creditCardType;
+
+    /**
+     * @var string
+     */
+    public $expiryDate;
 }
